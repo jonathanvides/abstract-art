@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle {
+    position: relative;
+    width: 70vmin;
+    height: 60vmin;
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grass {
+    position: absolute;
+    width: 70vmin;
+    height: 15vmin;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0vmin;
+}
+
+.foundation {
+    position: absolute;
+    width: 10vmin;
+    height: 25vmin;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 5vmin;
+    right: 20vmin;
+}
+
+.circle {
+    position: absolute;
+    width: 22vmin;
+    height: 22vmin;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 25vmin;
+    right: 14vmin;
+}
+
+.light1 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 36vmin;
+    right: 25vmin;
+    border: solid 1px white;
+}
+
+.light2 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 41vmin;
+    right: 25vmin;
+    border: solid 1px white;
+}
+
+.light3 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 31vmin;
+    right: 25vmin;
+    border: solid 1px white;
+}
+
+.light4 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 26vmin;
+    right: 25vmin;
+    border: solid 1px white;
+}
+
+.light5 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 26vmin;
+    right: 20vmin;
+    border: solid 1px white;
+}
+
+.light6 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 31vmin;
+    right: 20vmin;
+    border: solid 1px white;
+}
+
+.light7 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 36vmin;
+    right: 20vmin;
+    border: solid 1px white;
+}
+
+.light8 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 41vmin;
+    right: 20vmin;
+    border: solid 1px white;
+}
+
+.light9 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 36vmin;
+    right: 15vmin;
+    border: solid 1px white;
+}
+
+.light10 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 31vmin;
+    right: 15vmin;
+    border: solid 1px white;
+}
+
+.light11 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 36vmin;
+    right: 30vmin;
+    border: solid 1px white;
+}
+
+.light12 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    bottom: 31vmin;
+    right: 30vmin;
+    border: solid 1px white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: auto;
+    position: absolute;
+    top: 50px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: auto;
+    position: absolute;
+    top: 100px;
+}
